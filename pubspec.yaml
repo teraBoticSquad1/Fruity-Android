@@ -1,0 +1,57 @@
+name: fruity
+description: "A new Flutter project."
+publish_to: 'none' # 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  
+  cupertino_icons: ^1.0.2
+
+  #design
+  flutter_screenutil: ^5.9.0
+
+  #widget
+  carousel_slider: ^4.2.1
+  dots_indicator: ^3.0.0
+
+  #icons
+  phosphor_flutter: ^2.0.1
+
+  #others
+  logger: ^2.0.2+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/logo/
+    - assets/animations/
+
+  
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro

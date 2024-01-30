@@ -1,0 +1,1 @@
+ C:\\Users\\User\\Studio\ projects\\fruity\\.dart_tool\\flutter_build\\e53f794e8aa8a6e6b1a08dd6c54d5440\\native_assets.yaml: 
