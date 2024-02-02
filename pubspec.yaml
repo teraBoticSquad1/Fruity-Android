@@ -26,6 +26,9 @@ dependencies:
   #icons
   phosphor_flutter: ^2.0.1
 
+  #state
+  flutter_bloc:
+
   #others
   logger: ^2.0.2+1
 
