@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:fruity/data/model/product/product_model.dart';
+import 'package:fruity/data/model/product/product_model_demo.dart';
 import 'package:fruity/pages/products/all%20products/listenable/category_listenable.dart';
 import 'package:fruity/pages/products/all%20products/widget/single_product_widget.dart';
 import 'package:fruity/utils/assets.dart';
@@ -20,86 +20,86 @@ class AllProductsPage extends StatelessWidget {
       'BREAD & CAKE',
       'FISH & MEAT',
     ];
-    final List<ProductModel> products = [
-      ProductModel(
+    final List<ProductModelDemo> products = [
+      ProductModelDemo(
         image: iconStrawberry,
         title: 'Fresh Strawberry',
         price: 180.00,
         discountPrice: 150.00,
       ),
-      ProductModel(
+      ProductModelDemo(
         image: iconDateFruite,
         title: 'Fresh Date',
         price: 180.00,
         discountPrice: 150.00,
       ),
-      ProductModel(
+      ProductModelDemo(
         image: iconStrawberry,
         title: 'Fresh Strawberry',
         price: 180.00,
         discountPrice: 150.00,
       ),
-      ProductModel(
+      ProductModelDemo(
         image: iconDateFruite,
         title: 'Fresh Date',
         price: 180.00,
         discountPrice: 150.00,
       ),
-      ProductModel(
+      ProductModelDemo(
         image: iconStrawberry,
         title: 'Fresh Strawberry',
         price: 180.00,
         discountPrice: 150.00,
       ),
-      ProductModel(
+      ProductModelDemo(
         image: iconDateFruite,
         title: 'Fresh Date',
         price: 180.00,
         discountPrice: 150.00,
       ),
-      ProductModel(
+      ProductModelDemo(
         image: iconStrawberry,
         title: 'Fresh Strawberry',
         price: 180.00,
         discountPrice: 150.00,
       ),
-      ProductModel(
+      ProductModelDemo(
         image: iconDateFruite,
         title: 'Fresh Date',
         price: 180.00,
         discountPrice: 150.00,
       ),
-      ProductModel(
+      ProductModelDemo(
         image: iconStrawberry,
         title: 'Fresh Strawberry',
         price: 180.00,
         discountPrice: 150.00,
       ),
-      ProductModel(
+      ProductModelDemo(
         image: iconDateFruite,
         title: 'Fresh Date',
         price: 180.00,
         discountPrice: 150.00,
       ),
-      ProductModel(
+      ProductModelDemo(
         image: iconStrawberry,
         title: 'Fresh Strawberry',
         price: 180.00,
         discountPrice: 150.00,
       ),
-      ProductModel(
+      ProductModelDemo(
         image: iconDateFruite,
         title: 'Fresh Date',
         price: 180.00,
         discountPrice: 150.00,
       ),
-      ProductModel(
+      ProductModelDemo(
         image: iconStrawberry,
         title: 'Fresh Strawberry',
         price: 180.00,
         discountPrice: 150.00,
       ),
-      ProductModel(
+      ProductModelDemo(
         image: iconDateFruite,
         title: 'Fresh Date',
         price: 180.00,

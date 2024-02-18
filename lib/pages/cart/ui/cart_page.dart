@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:fruity/data/model/product/product_model.dart';
+import 'package:fruity/data/model/product/product_model_demo.dart';
 import 'package:fruity/pages/cart/ui/widget/cart_item_widget.dart';
 import 'package:fruity/utils/assets.dart';
 
@@ -10,127 +10,127 @@ class CartPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final size = MediaQuery.sizeOf(context);
-    final List<ProductModel> products = [
-      ProductModel(
+    final List<ProductModelDemo> products = [
+      ProductModelDemo(
         image: iconStrawberry,
         title: 'Fresh Strawberry',
         price: 180.00,
         discountPrice: 150.00,
         quantity: 5,
       ),
-      ProductModel(
+      ProductModelDemo(
         image: iconDateFruite,
         title: 'Fresh Date',
         price: 180.00,
         discountPrice: 150.00,
         quantity: 3,
       ),
-      ProductModel(
+      ProductModelDemo(
         image: iconStrawberry,
         title: 'Fresh Strawberry',
         price: 180.00,
         discountPrice: 150.00,
         quantity: 5,
       ),
-      ProductModel(
+      ProductModelDemo(
         image: iconDateFruite,
         title: 'Fresh Date',
         price: 180.00,
         discountPrice: 150.00,
         quantity: 3,
       ),
-      ProductModel(
+      ProductModelDemo(
         image: iconStrawberry,
         title: 'Fresh Strawberry',
         price: 180.00,
         discountPrice: 150.00,
         quantity: 5,
       ),
-      ProductModel(
+      ProductModelDemo(
         image: iconDateFruite,
         title: 'Fresh Date',
         price: 180.00,
         discountPrice: 150.00,
         quantity: 3,
       ),
-      ProductModel(
+      ProductModelDemo(
         image: iconStrawberry,
         title: 'Fresh Strawberry',
         price: 180.00,
         discountPrice: 150.00,
         quantity: 5,
       ),
-      ProductModel(
+      ProductModelDemo(
         image: iconDateFruite,
         title: 'Fresh Date',
         price: 180.00,
         discountPrice: 150.00,
         quantity: 3,
       ),
-      ProductModel(
+      ProductModelDemo(
         image: iconStrawberry,
         title: 'Fresh Strawberry',
         price: 180.00,
         discountPrice: 150.00,
         quantity: 5,
       ),
-      ProductModel(
+      ProductModelDemo(
         image: iconDateFruite,
         title: 'Fresh Date',
         price: 180.00,
         discountPrice: 150.00,
         quantity: 3,
       ),
-      ProductModel(
+      ProductModelDemo(
         image: iconStrawberry,
         title: 'Fresh Strawberry',
         price: 180.00,
         discountPrice: 150.00,
         quantity: 5,
       ),
-      ProductModel(
+      ProductModelDemo(
         image: iconDateFruite,
         title: 'Fresh Date',
         price: 180.00,
         discountPrice: 150.00,
         quantity: 3,
       ),
-      ProductModel(
+      ProductModelDemo(
         image: iconStrawberry,
         title: 'Fresh Strawberry',
         price: 180.00,
         discountPrice: 150.00,
         quantity: 5,
       ),
-      ProductModel(
+      ProductModelDemo(
         image: iconDateFruite,
         title: 'Fresh Date',
         price: 180.00,
         discountPrice: 150.00,
         quantity: 3,
       ),
-      ProductModel(
+      ProductModelDemo(
         image: iconStrawberry,
         title: 'Fresh Strawberry',
         price: 180.00,
         discountPrice: 150.00,
         quantity: 5,
       ),
-      ProductModel(
+      ProductModelDemo(
         image: iconDateFruite,
         title: 'Fresh Date',
         price: 180.00,
         discountPrice: 150.00,
         quantity: 3,
       ),
-      ProductModel(
+      ProductModelDemo(
         image: iconStrawberry,
         title: 'Fresh Strawberry',
         price: 180.00,
         discountPrice: 150.00,
         quantity: 5,
       ),
-      ProductModel(
+      ProductModelDemo(
         image: iconDateFruite,
         title: 'Fresh Date',
         price: 180.00,

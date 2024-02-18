@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:fruity/data/model/product/product_model.dart';
+import 'package:fruity/data/model/product/product_model_demo.dart';
 import 'package:fruity/extensions/align_extension.dart';
 import 'package:fruity/extensions/context_extension.dart';
 import 'package:fruity/pages/home/widget/product_item_slider_widget.dart';
@@ -19,86 +19,86 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   final searchController = TextEditingController();
-  List<ProductModel> discountProducts = [
-    ProductModel(
+  List<ProductModelDemo> discountProducts = [
+    ProductModelDemo(
       image: iconStrawberry,
       title: 'Fresh Strawberry',
       offerTitle: 'Up to 15% off Fresh Date Fruites',
       discountPrice: 69.99,
     ),
-    ProductModel(
+    ProductModelDemo(
       image: iconDateFruite,
       title: 'Fresh Strawberry',
       offerTitle: 'Up to 15% off Fresh Date Fruites',
       discountPrice: 69.99,
     ),
-    ProductModel(
+    ProductModelDemo(
       image: iconStrawberry,
       title: 'Fresh Strawberry',
       offerTitle: 'Up to 15% off Fresh Date Fruites',
       discountPrice: 69.99,
     ),
-    ProductModel(
+    ProductModelDemo(
       image: iconDateFruite,
       title: 'Fresh Strawberry',
       offerTitle: 'Up to 15% off Fresh Date Fruites',
       discountPrice: 69.99,
     ),
-    ProductModel(
+    ProductModelDemo(
       image: iconStrawberry,
       title: 'Fresh Strawberry',
       offerTitle: 'Up to 15% off Fresh Date Fruites',
       discountPrice: 69.99,
     ),
-    ProductModel(
+    ProductModelDemo(
       image: iconDateFruite,
       title: 'Fresh Strawberry',
       offerTitle: 'Up to 15% off Fresh Date Fruites',
       discountPrice: 69.99,
     ),
-    ProductModel(
+    ProductModelDemo(
       image: iconStrawberry,
       title: 'Fresh Strawberry',
       offerTitle: 'Up to 15% off Fresh Date Fruites',
       discountPrice: 69.99,
     ),
-    ProductModel(
+    ProductModelDemo(
       image: iconDateFruite,
       title: 'Fresh Strawberry',
       offerTitle: 'Up to 15% off Fresh Date Fruites',
       discountPrice: 69.99,
     ),
-    ProductModel(
+    ProductModelDemo(
       image: iconStrawberry,
       title: 'Fresh Strawberry',
       offerTitle: 'Up to 15% off Fresh Date Fruites',
       discountPrice: 69.99,
     ),
-    ProductModel(
+    ProductModelDemo(
       image: iconDateFruite,
       title: 'Fresh Strawberry',
       offerTitle: 'Up to 15% off Fresh Date Fruites',
       discountPrice: 69.99,
     ),
-    ProductModel(
+    ProductModelDemo(
       image: iconStrawberry,
       title: 'Fresh Strawberry',
       offerTitle: 'Up to 15% off Fresh Date Fruites',
       discountPrice: 69.99,
     ),
-    ProductModel(
+    ProductModelDemo(
       image: iconDateFruite,
       title: 'Fresh Strawberry',
       offerTitle: 'Up to 15% off Fresh Date Fruites',
       discountPrice: 69.99,
     ),
-    ProductModel(
+    ProductModelDemo(
       image: iconStrawberry,
       title: 'Fresh Strawberry',
       offerTitle: 'Up to 15% off Fresh Date Fruites',
       discountPrice: 69.99,
     ),
-    ProductModel(
+    ProductModelDemo(
       image: iconDateFruite,
       title: 'Fresh Strawberry',
       offerTitle: 'Up to 15% off Fresh Date Fruites',

@@ -6,11 +6,17 @@ class RoundIconButtonWidget extends StatelessWidget {
   final String text;
   final IconData icon;
   final Function() onPress;
+  final double? height;
+  final double? width;
+  final double? radius;
   const RoundIconButtonWidget({
     super.key,
     required this.text,
     required this.icon,
     required this.onPress,
+    this.height,
+    this.width,
+    this.radius,
   });
 
   @override
@@ -18,8 +24,10 @@ class RoundIconButtonWidget extends StatelessWidget {
     return MaterialButton(
       color: const Color(0xFF80B500),
       shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(30.r),
+        borderRadius: BorderRadius.circular(radius ?? 30.r),
       ),
+      height: height,
+      minWidth: width,
       onPressed: onPress,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.center,

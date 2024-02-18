@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:fruity/pages/about/ui/about_page.dart';
+import 'package:fruity/pages/auth/bloc/auth_cubit.dart';
+import 'package:fruity/pages/auth/ui/sign_in_page.dart';
+import 'package:fruity/pages/auth/ui/sign_up_page.dart';
 import 'package:fruity/pages/cart/ui/cart_page.dart';
 import 'package:fruity/pages/dashboard/ui/dashboard_page.dart';
 import 'package:fruity/pages/details/product/ui/product_details_page.dart';
@@ -14,6 +18,26 @@ class AppRouter {
         return MaterialPageRoute(
           builder: (context) {
             return const DashboardPage();
+          },
+        );
+
+      case '/sign_up_page':
+        return MaterialPageRoute(
+          builder: (context) {
+            return BlocProvider<AuthCubit>(
+              create: (context) => AuthCubit(),
+              child: const SignUpPage(),
+            );
+          },
+        );
+
+      case '/sign_in_page':
+        return MaterialPageRoute(
+          builder: (context) {
+            return BlocProvider<AuthCubit>(
+              create: (context) => AuthCubit(),
+              child: const SignInPage(),
+            );
           },
         );
 

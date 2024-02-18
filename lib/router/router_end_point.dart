@@ -1,4 +1,6 @@
 String get dashboarPage => '/dashboard_page';
+String get signUpPage => '/sign_up_page';
+String get signInPage => '/sign_in_page';
 String get homePage => '/home_page';
 String get cartPage => '/cart_page';
 String get productDetailsPage => '/product_details_page';

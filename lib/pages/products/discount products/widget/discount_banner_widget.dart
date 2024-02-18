@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:fruity/data/model/product/product_model.dart';
+import 'package:fruity/data/model/product/product_model_demo.dart';
 import 'package:fruity/extensions/align_extension.dart';
 import 'package:fruity/extensions/context_extension.dart';
 import 'package:fruity/router/router_end_point.dart';
@@ -9,7 +9,7 @@ import 'package:fruity/utils/utils.dart';
 class DiscountBannerWidget extends StatelessWidget {
   final String tag;
   final int index;
-  final ProductModel productModel;
+  final ProductModelDemo productModel;
   const DiscountBannerWidget({
     super.key,
     required this.index,

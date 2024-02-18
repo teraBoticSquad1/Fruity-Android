@@ -1,6 +1,6 @@
 name: fruity
 description: "A new Flutter project."
-publish_to: 'none' # 
+publish_to: 'none'
 
 
 version: 1.0.0+1
@@ -26,18 +26,39 @@ dependencies:
   #icons
   phosphor_flutter: ^2.0.1
 
+  #style
+  google_fonts: ^6.1.0
+
+  #storage
+  get_storage: ^2.1.1
+
+  #notify
+  awesome_notifications: ^0.8.3
+  awesome_top_snackbar: ^0.0.3
+
+  #animation
+  loading_overlay_pro: ^2.1.1
+
   #state
   flutter_bloc:
 
+  #network
+  dio: ^5.4.0
+  freezed: ^2.4.7
+  freezed_annotation: ^2.4.1
+  jwt_decoder: ^2.0.1
+
   #others
   logger: ^2.0.2+1
+  flutter_dotenv: ^5.1.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  
   flutter_lints: ^2.0.0
+  build_runner: ^2.4.8
+  json_serializable: ^6.7.1
 
 
 flutter:
@@ -49,6 +70,7 @@ flutter:
     - assets/images/
     - assets/logo/
     - assets/animations/
+    - lib/.env
 
   
   # fonts:

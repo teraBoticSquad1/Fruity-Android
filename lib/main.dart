@@ -1,8 +1,18 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:fruity/router/app_router.dart';
+import 'package:fruity/utils/storage/get_storage_utils.dart';
 
-void main(List<String> args) {
+void main(List<String> args) async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await getStorageUtils.init();
+  await dotenv.load(fileName: 'lib/.env');
+  SystemChrome.setPreferredOrientations([
+    DeviceOrientation.portraitUp,
+    DeviceOrientation.portraitDown,
+  ]);
   runApp(const MyApp());
 }
 
@@ -19,14 +29,15 @@ class MyApp extends StatelessWidget {
         return MaterialApp(
           debugShowCheckedModeBanner: false,
           theme: ThemeData(
-              scaffoldBackgroundColor: Colors.grey.shade200,
-              appBarTheme: const AppBarTheme(
-                backgroundColor: Colors.transparent,
-                elevation: 0,
-                centerTitle: true,
-              )),
+            scaffoldBackgroundColor: Colors.grey.shade200,
+            appBarTheme: const AppBarTheme(
+              backgroundColor: Colors.transparent,
+              elevation: 0,
+              centerTitle: true,
+            ),
+          ),
           onGenerateRoute: AppRouter.onGenerateRoute,
-          initialRoute: '/dashboard_page',
+          initialRoute: '/sign_in_page',
         );
       },
     );

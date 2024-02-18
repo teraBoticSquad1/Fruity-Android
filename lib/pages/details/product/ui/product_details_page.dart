@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:fruity/data/model/product/product_model.dart';
+import 'package:fruity/data/model/product/product_model_demo.dart';
 import 'package:fruity/extensions/align_extension.dart';
 import 'package:fruity/pages/details/product/listenable/product_listenable.dart';
 import 'package:fruity/pages/details/product/widget/review_widget.dart';
@@ -9,7 +9,7 @@ import 'package:fruity/utils/widget/round_icon_button_widget.dart';
 import 'package:phosphor_flutter/phosphor_flutter.dart';
 
 class ProductDetailsPage extends StatelessWidget {
-  final ProductModel productModel;
+  final ProductModelDemo productModel;
   final int index;
   const ProductDetailsPage(
       {super.key, required this.productModel, required this.index});
